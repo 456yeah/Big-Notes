@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			table{
+				width: 600px;
+				margin: 0 auto;
+				border: solid black 1px;
+				border-collapse: collapse;
+			}
+			
+			th,td{
+				border: solid black 1px;
+					text-align: center;
+			}
+			tr:nth-child(even){
+				background-color: coral;
+			}
+			
+			tr:hover{
+				background-color: darkorange ;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<table>
+			<tr>
+				<th>姓名</th>
+				<th>学号</th>
+				<th>地址</th>
+				<th rowspan="4">独占四行</th>
+			</tr>
+			<tr>
+				<td>阿飞</td>
+				<td>111</td>
+				<td>山东</td>
+			</tr>
+			<tr>
+				<td>阿门</td>
+				<td>222</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>二狗</td>
+				<td>333</td>
+				<td>后村</td>
+			</tr>
+			<tr>
+				<td colspan="2">独占两列</td>
+			</tr>
+			
+			
+		</table>
+	</body>
+</html>
